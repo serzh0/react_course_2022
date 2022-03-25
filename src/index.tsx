@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Lesson4 from './Lesson4';
+// import App from './App';
 // import HomeWork from './HomeWork';
 
 // const element = <p className="title">Hello React</p>;
@@ -13,8 +14,9 @@ import App from './App';
 // );
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
     {/* <HomeWork /> */}
+    <Lesson4 />
   </React.StrictMode>,
   document.getElementById('root')
 );

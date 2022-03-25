@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import AuthContainer from './containers/AuthContainer';
-import MainContainer from './containers/MainContainer';
-// import Counter from './Counter';
-// import Form from './Form';
-// import Input from './Input';
-// import NameComponent from './NameComponent';
+import Counter from './Counter';
+import Form from './Form';
+import Input from './Input';
+import NameComponent from './NameComponent';
 
 const App = () => (
   <div className="wrapper">
-    {/* <h1>My friends:</h1>
+    <h1>My friends:</h1>
     <NameComponent firstName="Alex" lastName="Yugin" />
     <NameComponent firstName="Max" lastName="Yugin" />
     <NameComponent firstName="Evgeniy " lastName="Kos." />
@@ -25,9 +23,7 @@ const App = () => (
       <Input />
       <Input />
       <Input />
-    </Form> */}
-    <AuthContainer />
-    <MainContainer />
+    </Form>
   </div>
 );
 

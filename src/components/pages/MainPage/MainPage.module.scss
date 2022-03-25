@@ -1,0 +1,19 @@
+.page__wrapper {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'content'
+    'footer';
+}
+
+.header {
+  grid-area: header;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
+}
