@@ -1,0 +1,34 @@
+.wrapper__homework {
+  margin: 100px auto;
+  width: 1140px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.list__item {
+  width: 280px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list__item img {
+  width: 280px;
+  height: 330px;
+}
+
+.list__item button:hover {
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+}
+
+.price {
+  font-weight: 700;
+}
+
+.add-cart {
+  margin-top: 5px;
+  width: 180px;
+}

@@ -1,20 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AuthContainer from './containers/AuthContainer';
+import MainContainer from './containers/MainContainer';
+// import Counter from './Counter';
+// import Form from './Form';
+// import Input from './Input';
+// import NameComponent from './NameComponent';
 
 const App = () => (
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit
-        <code>src/App.tsx</code>
-        and save to reload.
-      </p>
-      <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-        Learn React
-      </a>
-    </header>
+  <div className="wrapper">
+    {/* <h1>My friends:</h1>
+    <NameComponent firstName="Alex" lastName="Yugin" />
+    <NameComponent firstName="Max" lastName="Yugin" />
+    <NameComponent firstName="Evgeniy " lastName="Kos." />
+    <h1>My cart</h1>
+    <Counter title="Potato" />
+    <Counter title="Orange" />
+    <Form title="Auth">
+      <Input />
+      <Input />
+    </Form>
+    <Form title="Reg">
+      <Input />
+      <Input />
+      <Input />
+      <Input />
+    </Form> */}
+    <AuthContainer />
+    <MainContainer />
   </div>
 );
 

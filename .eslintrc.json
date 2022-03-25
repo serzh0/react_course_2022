@@ -25,11 +25,14 @@
         "react/jsx-filename-extension": ["error", { "extensions": [".ts", ".tsx"] }],
         "comma-dangle": "off",
         "react/jsx-closing-bracket-location": "off",
-        "linebreak-style": "off",
+        // "linebreak-style": "off",
         "react/function-component-definition": ["warn", {
             "namedComponents": "arrow-function",
             "unnamedComponents": "arrow-function"
-          }]
+          }],
+          "react/no-unused-prop-types": "warn",
+          "no-unused-vars": "warn",
+          "object-curly-newline": "off"
         
         
 

@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+h1,
+h5 {
+  margin-bottom: 10px;
+}
+h5 {
+  margin-top: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  margin: 10px 0;
+}
+.wrapper {
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 50px;
+  background-color: cadetblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper__name {
+  display: flex;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper__name p {
+  margin-right: 10px;
+}
+
+/* .wrapper__name button,
+.card__control button {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+.wrapper__name button:hover,
+.card__control button:hover {
+  color: aquamarine;
+  border: 1px solid aquamarine;
+} */
+
+button {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+.wrapper__name button:hover,
+.card__control button:hover {
+  color: aquamarine;
+  border: 1px solid aquamarine;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+/* form */
+
+.form-input__wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 15px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-input__wrapper input {
+  margin-bottom: 8px;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 15px;
 }
