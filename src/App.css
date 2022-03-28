@@ -18,13 +18,9 @@ p {
   background-color: cadetblue;
 }
 
-.wrapper__name {
+.wrapper h1 {
   display: flex;
-  align-items: center;
-}
-
-.wrapper__name p {
-  margin-right: 10px;
+  justify-content: center;
 }
 
 /* .wrapper__name button,

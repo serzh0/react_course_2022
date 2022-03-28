@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './Input.module.scss';
 
 const Input = () => (
   <label htmlFor="1">

@@ -1,5 +1,6 @@
 import React from 'react';
-import Input from './Input';
+// import Input from '../../../Input';
+import style from './Form.module.scss';
 
 type FormPropsType = {
   title: string;

@@ -42,6 +42,17 @@ code {
   margin-bottom: 5px;
 }
 
+/* form */
+.wrapper__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper__name p {
+  margin-right: 10px;
+}
+
 /* main auth */
 /* lesson 4 */
 
@@ -49,8 +60,7 @@ a {
   text-decoration: none;
 }
 
-.form,
-main h1 {
+.form {
   position: absolute;
   top: 50%;
   left: 50%;

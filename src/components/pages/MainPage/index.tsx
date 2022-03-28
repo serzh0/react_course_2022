@@ -1,4 +1,5 @@
 import React from 'react';
+import NameComponent from '../../common/NameComponent';
 import PageWrapper from '../../common/PageWrapper';
 // import styled from 'styled-components';
 import style from './MainPage.module.scss';
@@ -15,7 +16,13 @@ import style from './MainPage.module.scss';
 const MainPage = () => (
   <PageWrapper>
     <main className={style.content}>
-      <h1>main content</h1>
+      <div className={style.content__wrapper}>
+        <h1>main content (NameComponent)</h1>
+        <h2>Its my friends:</h2>
+        <NameComponent firstName="Alex" lastName="Yu." />
+        <NameComponent firstName="Max" lastName="Yu." />
+        <NameComponent firstName="Evgeniy " lastName="Kos." />
+      </div>
     </main>
   </PageWrapper>
 );

@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Counter from './Counter';
+import Counter from './components/common/Counter';
+import NameComponent from './components/common/NameComponent';
 // import Form from './Form';
 // import Input from './Input';
-import NameComponent from './NameComponent';
 
 const App = () => (
   <div className="wrapper">

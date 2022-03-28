@@ -1,6 +1,6 @@
 import React from 'react';
-import Form from '../../../Form';
-import Input from '../../../Input';
+import Form from '../../common/Form';
+import Input from '../../common/Form/Input';
 import PageWrapper from '../../common/PageWrapper';
 import style from './RegistrationPage.module.scss';
 

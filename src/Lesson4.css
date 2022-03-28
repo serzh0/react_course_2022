@@ -1,0 +1,11 @@
+button {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+.wrapper__name button:hover {
+  color: rgb(228, 158, 67);
+  border: 1px solid rgb(228, 158, 67);
+}
