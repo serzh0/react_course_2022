@@ -1,11 +1,11 @@
 import React from 'react';
-import Card from './Card';
-import CardList from './CardList';
-import CounterHW from './CounterHW';
-import './HomeWork.css';
+import CardList from '../../common/CardList';
+import Card from '../../common/CardList/Card';
+import CounterHW from '../../common/CardList/Card/CounterHW';
+import style from './HWLesson3Page.module.scss';
 
 const HomeWork = () => (
-  <div className="wrapper__homework">
+  <div className={style.wrapper__homework}>
     <h1>Homework</h1>
     <CardList>
       <Card title="Греча" imgSource="/images/grecha.jpg" price="180" weight="800">

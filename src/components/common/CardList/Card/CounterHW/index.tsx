@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './CounterHW.module.scss';
 
 const CounterHW = () => {
   const [count, setCount] = React.useState(0);
@@ -26,7 +27,7 @@ const CounterHW = () => {
         </button>
       </div>
       <div>
-        <button className="add-cart" type="button">
+        <button className={style.cart__add} type="button">
           Добавить в корзину
         </button>
       </div>
