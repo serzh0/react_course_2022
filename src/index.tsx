@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+// import Header from './components/common/Header';
 import './index.css';
 import Lesson4 from './Lesson4';
-// import App from './App';
-// import HomeWork from './HomeWork';
+import App from './App';
+import HomeWork from './HomeWork';
 
 // const element = <p className="title">Hello React</p>;
 // const textElement = React.createElement('p', { className: 'title-element' }, 'Hi all!');
@@ -14,9 +16,12 @@ import Lesson4 from './Lesson4';
 // );
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    {/* <HomeWork /> */}
-    <Lesson4 />
+    <BrowserRouter>
+      {/* <Header /> */}
+      {/* <App />
+      <HomeWork /> */}
+      <Lesson4 />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

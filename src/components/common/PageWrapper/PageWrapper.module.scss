@@ -1,0 +1,13 @@
+.page__wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    'header'
+    'content'
+    'footer';
+  grid-template-rows: 80px calc(100% - 140px) 80px;
+  // для наглядности страниц:
+  margin-bottom: 150px;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Counter from './Counter';
-import Form from './Form';
-import Input from './Input';
+// import Form from './Form';
+// import Input from './Input';
 import NameComponent from './NameComponent';
 
 const App = () => (
@@ -14,16 +14,16 @@ const App = () => (
     <h1>My cart</h1>
     <Counter title="Potato" />
     <Counter title="Orange" />
-    <Form title="Auth">
+    {/* <Form title="Auth">
       <Input />
       <Input />
-    </Form>
-    <Form title="Reg">
+    </Form> */}
+    {/* <Form title="Reg">
       <Input />
       <Input />
       <Input />
       <Input />
-    </Form>
+    </Form>  */}
   </div>
 );
 

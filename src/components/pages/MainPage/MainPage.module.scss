@@ -1,19 +1,5 @@
-.page__wrapper {
-  display: grid;
-  grid-template-areas:
-    'header'
-    'content'
-    'footer';
-}
-
-.header {
-  grid-area: header;
-}
-
 .content {
   grid-area: content;
-}
-
-.footer {
-  grid-area: footer;
+  background-color: rgb(255, 255, 218);
+  font-size: 22px;
 }

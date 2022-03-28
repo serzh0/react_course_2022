@@ -2,12 +2,12 @@ import React from 'react';
 import Form from '../../../Form';
 import Input from '../../../Input';
 import PageWrapper from '../../common/PageWrapper';
-import style from './AuthPage.module.scss';
+import style from './SecondAuthPage.module.scss';
 
-const AuthPage = () => (
+const SecondAuthPage = () => (
   <PageWrapper>
     <div className={style.content}>
-      <Form title="Авторизация">
+      <Form title="Вторая авторизация">
         <span>Ваш логин:</span>
         <Input />
         <span>Ваш пароль:</span>
@@ -17,4 +17,4 @@ const AuthPage = () => (
   </PageWrapper>
 );
 
-export default AuthPage;
+export default SecondAuthPage;

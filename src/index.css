@@ -21,9 +21,39 @@ code {
   color: rgb(95, 49, 16);
 }
 
-/* main auth */
+/* form */
 
-.wrapper__lesson4 {
-  width: 1140px;
-  margin: 0 auto;
+.form-input__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.form-input__wrapper input {
+  margin-bottom: 8px;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 6px;
+  font-size: 15px;
+}
+
+.form-input__wrapper span {
+  margin-bottom: 5px;
+}
+
+/* main auth */
+/* lesson 4 */
+
+a {
+  text-decoration: none;
+}
+
+.form,
+main h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
