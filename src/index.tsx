@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import Lesson4 from './Lesson4';
 import App from './App';
@@ -14,11 +13,9 @@ import HomeWork from './components/pages/HWLesson3Page';
 // );
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      {/* <App />
-      <HomeWork /> */}
-      <Lesson4 />
-    </BrowserRouter>
+    {/* <App />
+    <HomeWork /> */}
+    <Lesson4 />
   </React.StrictMode>,
   document.getElementById('root')
 );
