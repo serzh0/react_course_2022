@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../common/Button';
 import Form from '../../common/Form';
 import Input from '../../common/Form/Input';
 import PageWrapper from '../../common/PageWrapper';
@@ -12,6 +13,7 @@ const RegistrationPage = () => (
         <Input title="Your nickname:" placeholder="Enter nickname" id="1" />
         <Input title="Your password:" placeholder="Enter password" id="1" />
         <Input title="Repeat password:" placeholder="Enter password" id="1" />
+        <Button title="Auth" onClick={() => console.log('Registration')} />
       </Form>
     </div>
   </PageWrapper>
