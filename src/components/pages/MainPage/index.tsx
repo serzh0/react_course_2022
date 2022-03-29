@@ -17,7 +17,7 @@ const MainPage = () => (
   <PageWrapper>
     <main className={style.content}>
       <div className={style.content__wrapper}>
-        <h1>main content (NameComponent)</h1>
+        <h1>{'main content (MainPage=>NameComponent)'}</h1>
         <h2>Its my friends:</h2>
         <NameComponent firstName="Alex" lastName="Yu." />
         <NameComponent firstName="Max" lastName="Yu." />

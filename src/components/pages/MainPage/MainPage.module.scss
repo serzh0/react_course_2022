@@ -2,16 +2,19 @@
   grid-area: content;
   background-color: rgb(255, 255, 218);
   font-size: 18px;
-}
 
-.content__wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  &__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  &__wrapper .list__item button:hover {
+    color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+  }
 }
-
 .wrapper__homework {
   margin: 100px auto;
   width: 1140px;
@@ -20,35 +23,25 @@
 .list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
 
-.list__item {
-  width: 280px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.list__item img {
-  width: 280px;
-  height: 330px;
-}
+  &__item {
+    width: 280px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  &__item img {
+    width: 280px;
+    height: 330px;
+  }
 
-.list__item button {
-  color: rgb(0, 0, 0);
-  border: 1px solid rgb(0, 0, 0);
-  margin-right: 5px;
-}
-
-.content__wrapper .list__item button:hover {
-  color: cornflowerblue;
-  border: 1px solid cornflowerblue;
+  &__item button {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    margin-right: 5px;
+  }
 }
 
 .price {
   font-weight: 700;
-}
-
-.add-cart {
-  margin-top: 5px;
-  width: 180px;
 }

@@ -1,9 +1,16 @@
 import React from 'react';
 import style from './Input.module.scss';
 
-const Input = () => (
-  <label htmlFor="1">
-    <input id="1" type="text" />
+type InputPropsType = {
+  title: string;
+  placeholder: string;
+  id: string;
+};
+
+const Input = ({ title, placeholder, id }: InputPropsType) => (
+  <label className={style.input__wrapper} htmlFor={id}>
+    <span className={style.input__span}>{title}</span>
+    <input placeholder={placeholder} id={id} type="text" />
   </label>
 );
 

@@ -10,6 +10,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
 .title {
   color: darkgreen;
   font-size: 20px;
@@ -21,28 +25,7 @@ code {
   color: rgb(95, 49, 16);
 }
 
-/* form */
-
-.form-input__wrapper {
-  display: flex;
-  flex-direction: column;
-  margin-top: 15px;
-}
-
-.form-input__wrapper input {
-  margin-bottom: 8px;
-  border: 1px solid black;
-  background-color: transparent;
-  border-radius: 3px;
-  padding: 6px;
-  font-size: 15px;
-}
-
-.form-input__wrapper span {
-  margin-bottom: 5px;
-}
-
-/* form */
+/* list friend */
 .wrapper__name {
   display: flex;
   align-items: center;
@@ -51,19 +34,4 @@ code {
 
 .wrapper__name p {
   margin-right: 10px;
-}
-
-/* main auth */
-/* lesson 4 */
-
-a {
-  text-decoration: none;
-}
-
-.form {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
 }

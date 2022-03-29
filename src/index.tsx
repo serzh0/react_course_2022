@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-// import Header from './components/common/Header';
 import './index.css';
 import Lesson4 from './Lesson4';
 import App from './App';
@@ -16,9 +15,8 @@ import HomeWork from './components/pages/HWLesson3Page';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      {/* <Header /> */}
-      <App />
-      <HomeWork />
+      {/* <App />
+      <HomeWork /> */}
       <Lesson4 />
     </BrowserRouter>
   </React.StrictMode>,

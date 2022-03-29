@@ -1,0 +1,16 @@
+input {
+  margin-bottom: 8px;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 6px;
+  font-size: 15px;
+}
+.input__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input__span {
+  margin-bottom: 5px;
+}

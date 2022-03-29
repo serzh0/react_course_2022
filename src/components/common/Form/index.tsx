@@ -8,9 +8,9 @@ type FormPropsType = {
 };
 // const Form: React.FC<FormPropsType> = ({ title, children }) => (
 const Form = ({ title, children }: FormPropsType) => (
-  <div className="form">
+  <div className={style.form}>
     <h1>{title}</h1>
-    <div className="form-input__wrapper">{children}</div>
+    <div className={style['form-input__wrapper']}>{children}</div>
   </div>
 );
 

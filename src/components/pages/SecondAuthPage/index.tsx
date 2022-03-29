@@ -7,11 +7,9 @@ import style from './SecondAuthPage.module.scss';
 const SecondAuthPage = () => (
   <PageWrapper>
     <div className={style.content}>
-      <Form title="Вторая авторизация">
-        <span>Ваш логин:</span>
-        <Input />
-        <span>Ваш пароль:</span>
-        <Input />
+      <Form title="2nd registration">
+        <Input title="Login:" placeholder="Enter your login" id="1" />
+        <Input title="Password:" placeholder="Enter your password" id="2" />
       </Form>
     </div>
   </PageWrapper>

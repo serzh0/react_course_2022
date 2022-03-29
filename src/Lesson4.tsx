@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Route, Routes } from 'react-router-dom';
 import './Lesson4.css';
 import AuthContainer from './containers/AuthContainer';
 import MainContainer from './containers/MainContainer';
@@ -13,10 +12,6 @@ const Lesson4 = () => (
     <RegistrationContainer />
     <SecondAuthContainer />
   </>
-  // <Routes>
-  //   <Route path="/" element={<MainContainer />} />
-  //   <Route path="/" element={<RegistrationContainer />} />
-  // </Routes>
 );
 
 export default Lesson4;

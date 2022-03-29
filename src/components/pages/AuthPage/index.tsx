@@ -7,11 +7,9 @@ import style from './AuthPage.module.scss';
 const AuthPage = () => (
   <PageWrapper>
     <div className={style.content}>
-      <Form title="Авторизация">
-        <span>Ваш логин:</span>
-        <Input />
-        <span>Ваш пароль:</span>
-        <Input />
+      <Form title="Auth">
+        <Input title="Your login:" placeholder="Enter login" id="1" />
+        <Input title="Your password:" placeholder="Enter password" id="1" />
       </Form>
     </div>
   </PageWrapper>

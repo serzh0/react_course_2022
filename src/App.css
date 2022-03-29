@@ -23,20 +23,6 @@ p {
   justify-content: center;
 }
 
-/* .wrapper__name button,
-.card__control button {
-  border: 1px solid black;
-  border-radius: 3px;
-  background-color: transparent;
-  margin-right: 5px;
-}
-
-.wrapper__name button:hover,
-.card__control button:hover {
-  color: aquamarine;
-  border: 1px solid aquamarine;
-} */
-
 .wrapper button {
   border: 1px solid black;
   border-radius: 3px;
