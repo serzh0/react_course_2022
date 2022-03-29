@@ -1,30 +1,18 @@
 import React from 'react';
-import './App.css';
-import Counter from './components/common/Counter';
-import NameComponent from './components/common/NameComponent';
-// import Form from './Form';
-// import Input from './Input';
+// import FoodShopContainer from './containers/FoodShopContainer';
+import MainContainer from './containers/MainContainer';
+import AuthContainer from './containers/AuthContainer';
+import RegistrationContainer from './containers/RegistrationContainer';
+import SecondAuthContainer from './containers/SecondAuthContainer';
 
 const App = () => (
-  <div className="wrapper">
-    <h1>My friends:</h1>
-    <NameComponent firstName="Alex" lastName="Yugin" />
-    <NameComponent firstName="Max" lastName="Yugin" />
-    <NameComponent firstName="Evgeniy " lastName="Kos." />
-    <h1>My cart</h1>
-    <Counter title="Potato" />
-    <Counter title="Orange" />
-    {/* <Form title="Auth">
-      <Input />
-      <Input />
-    </Form> */}
-    {/* <Form title="Reg">
-      <Input />
-      <Input />
-      <Input />
-      <Input />
-    </Form>  */}
-  </div>
+  <>
+    {/* <FoodShopContainer /> */}
+    <MainContainer />
+    <AuthContainer />
+    <RegistrationContainer />
+    <SecondAuthContainer />
+  </>
 );
 
 export default App;

@@ -2,11 +2,11 @@ import React from 'react';
 import CardList from '../../common/CardList';
 import Card from '../../common/CardList/Card';
 import CounterHW from '../../common/CardList/Card/CounterHW';
-import style from './HWLesson3Page.module.scss';
+import style from './FoodShopPage.module.scss';
 
-const HomeWork = () => (
+const HWLesson3Page = () => (
   <div className={style.wrapper__homework}>
-    <h1>Homework</h1>
+    <h1>Homework lesson 3</h1>
     <CardList>
       <Card title="Греча" imgSource="/images/grecha.jpg" price="180" weight="800">
         <CounterHW />
@@ -24,4 +24,4 @@ const HomeWork = () => (
   </div>
 );
 
-export default HomeWork;
+export default HWLesson3Page;

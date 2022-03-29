@@ -1,0 +1,19 @@
+.btn__namecomponent {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: transparent;
+  margin-right: 5px;
+  &:hover {
+    color: rgb(206, 129, 29);
+    border: 1px solid rgb(206, 129, 29);
+  }
+}
+
+.wrapper__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & p {
+    margin-right: 10px;
+  }
+}

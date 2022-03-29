@@ -1,4 +1,5 @@
 import React, { SyntheticEvent } from 'react';
+import style from './NameComponent.module.scss';
 
 type NameComponentPropsType = {
   firstName: string;
@@ -19,11 +20,11 @@ const NameComponent = (props: NameComponentPropsType) => {
     console.log(event.target, 'target');
   };
   return (
-    <div role="presentation" onClick={mainHandler} className="wrapper__name">
+    <div role="presentation" onClick={mainHandler} className={style.wrapper__name}>
       <p>{firstName}</p>
       <p>{lastName}</p>
       <div>
-        <button type="button" onClick={handler}>
+        <button className={style.btn__namecomponent} type="button" onClick={handler}>
           {' '}
           Info
         </button>

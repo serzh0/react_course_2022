@@ -4,8 +4,13 @@
   cursor: pointer;
   background-color: transparent;
   border: 1px solid black;
+  border-radius: 3px;
   font-size: 18px;
   color: #000000;
   text-align: center;
   margin-top: 20px;
+  &:hover {
+    border: 1px solid #395464;
+    color: #395464;
+  }
 }

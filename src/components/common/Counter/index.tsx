@@ -1,4 +1,6 @@
 import React from 'react';
+import styled from 'styled-components';
+import style from './Counter.module.scss';
 
 type CounterPropsType = {
   title: string;
@@ -30,18 +32,18 @@ const Counter = (props: CounterPropsType) => {
       <h5>{title}</h5>
       <p>{`${count} единиц`}</p>
       <div className="card__control">
-        <button type="button" onClick={addHandler}>
+        <button className={style.btn__counter} type="button" onClick={addHandler}>
           {`Добавить ${step} шт.`}
         </button>
-        <button type="button" onClick={removeHandler}>
+        <button className={style.btn__counter} type="button" onClick={removeHandler}>
           {`Убрать ${step} шт.`}
         </button>
       </div>
       <div className="card__control">
-        <button type="button" onClick={() => setStep(step + 1)}>
+        <button className={style.btn__counter} type="button" onClick={() => setStep(step + 1)}>
           Увеличить шаг
         </button>
-        <button type="button" onClick={() => setStep(step - 1)}>
+        <button className={style.btn__counter} type="button" onClick={() => setStep(step - 1)}>
           Уменьшить шаг
         </button>
       </div>
