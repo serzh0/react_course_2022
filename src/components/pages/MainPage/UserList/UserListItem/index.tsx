@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import style from './UserListItem.module.scss';
 
 type UserListItemPropsType = {
@@ -7,12 +7,15 @@ type UserListItemPropsType = {
   age: string;
 };
 
-const UserListItem = ({ name, id, age }: UserListItemPropsType) => (
-  <li className={style.list__item}>
-    <h3>{name}</h3>
-    <span>{`ID: ${id}`}</span>
-    <span>{`Age: ${age}`}</span>
-  </li>
-);
+const UserListItem = ({ name, id, age }: UserListItemPropsType) => {
+  useEffect(() => console.log('USER_LIST_ITEM MOUNT'), []);
+  return (
+    <li className={style.list__item}>
+      <h3>{name}</h3>
+      <span>{`ID: ${id}`}</span>
+      <span>{`Age: ${age}`}</span>
+    </li>
+  );
+};
 
 export default UserListItem;

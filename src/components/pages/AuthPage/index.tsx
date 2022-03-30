@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Button from '../../common/Button';
 import Form from '../../common/Form';
 import Input from '../../common/Form/Input';
@@ -8,9 +8,28 @@ import style from './AuthPage.module.scss';
 const AuthPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [hasError, setHasError] = useState(false);
   const submitHandler = () => {
-    console.log({ email, password });
+    if (password.length >= 6) {
+      setHasError(false);
+      console.log({ email, password });
+    } else {
+      setHasError(true);
+      console.log('error');
+    }
   };
+
+  useEffect(() => console.log(`Переменная email ${email} изменилась`), [email]);
+  useEffect(() => {
+    if (password.length >= 6) {
+      setHasError(false);
+      console.log({ email, password });
+    } else if (password.length > 0) {
+      setHasError(true);
+      console.log('error');
+    }
+  }, [password]);
+
   return (
     <PageWrapper>
       <div className={style.content}>
@@ -30,7 +49,13 @@ const AuthPage = () => {
             setValue={setPassword}
             type="password"
           />
-          <Button title="Auth" onClick={submitHandler} />
+          {hasError && (
+            <div className={style.error}>
+              <span>Пароль должен быть не меньше 6 символов.</span>
+            </div>
+          )}
+
+          <Button title="Войти" onClick={submitHandler} />
         </Form>
       </div>
     </PageWrapper>
