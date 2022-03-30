@@ -1,0 +1,10 @@
+.list__item {
+  font-size: 20px;
+  & h3 {
+    margin: 25px 0 5px 0;
+  }
+  & span {
+    margin-right: 10px;
+    color: darkslategrey;
+  }
+}

@@ -9,9 +9,9 @@ const App = () => (
   <>
     {/* <FoodShopContainer /> */}
     <MainContainer />
-    <AuthContainer />
+    {/* <AuthContainer />
     <RegistrationContainer />
-    <SecondAuthContainer />
+    <SecondAuthContainer /> */}
   </>
 );
 

@@ -9,10 +9,10 @@ const RegistrationPage = () => (
   <PageWrapper>
     <div className={style.content}>
       <Form title="Registration">
-        <Input title="Your name:" placeholder="Enter name" id="1" />
+        {/* <Input title="Your name:" placeholder="Enter name" id="1" />
         <Input title="Your nickname:" placeholder="Enter nickname" id="1" />
         <Input title="Your password:" placeholder="Enter password" id="1" />
-        <Input title="Repeat password:" placeholder="Enter password" id="1" />
+        <Input title="Repeat password:" placeholder="Enter password" id="1" /> */}
         <Button title="Auth" onClick={() => console.log('Registration')} />
       </Form>
     </div>

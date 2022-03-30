@@ -6,7 +6,7 @@ import style from './PageWrapper.module.scss';
 const PageWrapper: React.FC = ({ children }) => (
   <div className={style.page__wrapper}>
     <Header />
-    {children}
+    <main className={style.content}>{children}</main>
     <Footer />
   </div>
 );
