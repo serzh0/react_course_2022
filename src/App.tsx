@@ -15,8 +15,8 @@ const App = () => {
       {/* <FoodShopContainer /> */}
       <MainContainer />
       <AuthContainer />
-      {/* <RegistrationContainer />
-      <SecondAuthContainer /> */}
+      <RegistrationContainer />
+      {/* <SecondAuthContainer /> */}
     </>
   );
 };
