@@ -2,4 +2,27 @@
   grid-area: header;
   background-color: cadetblue;
   color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  & > ul {
+    width: 400px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    & > li > a {
+      text-decoration: none;
+      &:hover {
+        color: aqua;
+      }
+    }
+  }
+}
+.active_link {
+  color: rgb(133, 185, 202);
+}
+.not_active_link {
+  color: lightblue;
 }

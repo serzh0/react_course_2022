@@ -9,3 +9,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.active {
+  color: rgb(67, 180, 65);
+}
